@@ -1,0 +1,18 @@
+{
+  "schema_version": "maintenance_intelligence_v1",
+  "asset_type": "hydraulic_system",
+  "attention_level": "PRIORITY_INSPECTION",
+  "primary_finding": "Cooler condition requires priority inspection.",
+  "reliability_state": "HIGH",
+  "evidence_quality": "HIGH",
+  "inspection_recommendation": [
+    "Verify cooler temperature differential under stable operation.",
+    "Inspect for restricted flow, fouling, and heat-transfer degradation.",
+    "Compare the current condition with recent maintenance history."
+  ],
+  "limitations": [
+    "The prediction does not establish physical root cause.",
+    "A qualified technician must confirm the condition before maintenance action."
+  ],
+  "human_review_required": true
+}
